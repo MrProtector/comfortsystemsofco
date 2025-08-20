@@ -1,107 +1,438 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
-<title>Comfort Systems of Colorado | HVAC Repair & Installation</title>
-<meta name="description" content="Premium, customer-friendly HVAC services in Castle Rock, Littleton, and within 50 miles. Same-day repairs when available. Upfront pricing."/>
-<meta name="theme-color" content="#0ea5e9"/>
-<script src="https://cdn.tailwindcss.com"></script>
-<script>tailwind.config={theme:{extend:{fontFamily:{sans:["Inter","ui-sans-serif","system-ui","Segoe UI","Helvetica","Arial","Apple Color Emoji","Segoe UI Emoji"]},colors:{brand:{DEFAULT:"#0ea5e9",dark:"#0284c7"}}}}}</script>
-<style>section[id]{scroll-margin-top:96px}</style></head>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Comfort Systems of Colorado | Same-Day Guaranteed HVAC in Castle Rock & Littleton</title>
+  <meta name="description" content="Same-day guaranteed HVAC repair, install, and maintenance in Castle Rock, Littleton, and within 50 miles. Upfront pricing. Call (303) 903-2023." />
+  <meta name="robots" content="index,follow" />
+  <link rel="canonical" href="https://www.comfortsystemsofco.com/" />
+
+  <!-- Open Graph / Twitter -->
+  <meta property="og:site_name" content="Comfort Systems of Colorado" />
+  <meta property="og:title" content="Same-Day Guaranteed HVAC — Comfort Systems of Colorado" />
+  <meta property="og:description" content="HVAC repairs, installs, and tune-ups. Same-day guaranteed. Upfront pricing." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.comfortsystemsofco.com/" />
+  <meta property="og:image" content="https://source.unsplash.com/1200x630/?hvac,technician" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <meta name="theme-color" content="#0ea5e9" />
+
+  <!-- Tailwind via CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: { sans: ["Inter","ui-sans-serif","system-ui","Segoe UI","Helvetica","Arial","Apple Color Emoji","Segoe UI Emoji"] },
+          colors: { brand: { DEFAULT: '#0ea5e9', dark: '#0284c7' } }
+        }
+      }
+    }
+  </script>
+
+  <!-- LocalBusiness & FAQ Schema (SEO) -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"HVACBusiness",
+    "name":"Comfort Systems of Colorado",
+    "url":"https://www.comfortsystemsofco.com/",
+    "telephone":"+1-303-903-2023",
+    "email":"comfortsystemsofco@gmail.com",
+    "image":"https://source.unsplash.com/1200x630/?hvac,technician",
+    "areaServed":["Castle Rock CO","Littleton CO","Douglas County","Arapahoe County","Jefferson County"],
+    "priceRange":"$$",
+    "openingHours":["Mo-Fr 08:00-18:00","Sa 09:00-14:00"],
+    "description":"Same-day guaranteed HVAC repair, installation, and maintenance with upfront pricing.",
+    "sameAs":[]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"FAQPage",
+    "mainEntity":[
+      {
+        "@type":"Question",
+        "name":"Do you guarantee same-day service?",
+        "acceptedAnswer":{"@type":"Answer","text":"Yes. We guarantee same-day service in our core area for most calls placed during business hours. We’ll communicate timing clearly and keep you updated."}
+      },
+      {
+        "@type":"Question",
+        "name":"Do you force replacement if my system is old?",
+        "acceptedAnswer":{"@type":"Answer","text":"No. We present repair vs. replace with transparent costs and pros/cons. You decide what’s best for your home and budget."}
+      },
+      {
+        "@type":"Question",
+        "name":"Are you licensed and insured?",
+        "acceptedAnswer":{"@type":"Answer","text":"Yes—fully insured, operating as a registered Colorado business. We pull permits when required by city or county."}
+      },
+      {
+        "@type":"Question",
+        "name":"What areas do you serve?",
+        "acceptedAnswer":{"@type":"Answer","text":"Castle Rock, Littleton, and surrounding communities within ~50 miles. Not sure if you’re in range? Call or text and we’ll confirm."}
+      }
+    ]
+  }
+  </script>
+
+  <style>
+    /* Smooth anchor offsets */
+    section[id]{scroll-margin-top:96px}
+  </style>
+</head>
 <body class="antialiased text-slate-800">
-<div class="bg-slate-900 text-white text-sm"><div class="max-w-7xl mx-auto px-4 py-2 flex items-center justify-between"><span>Serving Castle Rock, Littleton & surrounding areas (50-mile radius)</span><a href="tel:+14065447251" class="inline-flex items-center gap-2 hover:opacity-90"><strong>(406) 544-7251</strong></a></div></div>
-<header class="sticky top-0 z-40 bg-white/90 backdrop-blur border-b border-slate-100"><div class="max-w-7xl mx-auto px-4"><div class="flex items-center justify-between h-20">
-<a href="#top" class="flex items-center gap-3"><div class="h-10 w-10 rounded-xl bg-brand text-white font-bold grid place-items-center">CS</div><div><p class="font-extrabold tracking-tight text-slate-900 leading-5">Comfort Systems of Colorado</p><p class="text-xs text-slate-600 -mt-1">Premium HVAC • Upfront Pricing</p></div></a>
-<nav class="hidden md:flex items-center gap-6 text-sm"><a href="#services" class="hover:text-brand">Services</a><a href="#promos" class="hover:text-brand">Promos</a><a href="#financing" class="hover:text-brand">Financing</a><a href="#reviews" class="hover:text-brand">Reviews</a><a href="#faq" class="hover:text-brand">FAQ</a><a href="#contact" class="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-brand text-white hover:bg-brand-dark transition">Request Service</a></nav>
-<a href="tel:+14065447251" class="md:hidden inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-brand text-white hover:bg-brand-dark transition">Call</a>
-</div></div></header>
+  <!-- Top Bar -->
+  <div class="bg-slate-900 text-white text-sm">
+    <div class="max-w-7xl mx-auto px-4 py-2 flex items-center justify-between">
+      <span>Serving Castle Rock, Littleton & nearby • <strong>Same-day guaranteed</strong></span>
+      <a href="tel:+13039032023" class="inline-flex items-center gap-2 hover:opacity-90"><strong>(303) 903-2023</strong></a>
+    </div>
+  </div>
 
-<section id="top" class="relative overflow-hidden"><div class="absolute inset-0 bg-gradient-to-br from-sky-50 via-white to-sky-100"></div>
-<div class="max-w-7xl mx-auto px-4 py-20 relative"><div class="grid md:grid-cols-2 gap-10 items-center">
-<div><h1 class="text-4xl md:text-5xl font-extrabold tracking-tight leading-tight">HVAC You Can Trust — <span class="text-brand">Fast, Fair, Professional</span></h1>
-<p class="mt-4 text-lg text-slate-700">Repairs, replacements, and tune-ups for furnaces, AC, heat pumps, and more. Same-day service when available. Always customer-friendly pricing.</p>
-<div class="mt-8 flex flex-col sm:flex-row gap-3"><a href="#contact" class="px-6 py-3 rounded-xl bg-brand text-white font-semibold hover:bg-brand-dark transition">Request Service</a><a href="tel:+14065447251" class="px-6 py-3 rounded-xl border border-slate-300 bg-white font-semibold hover:border-slate-400 transition">Call (406) 544-7251</a></div>
-<div class="mt-6 flex items-center gap-6 text-sm text-slate-600"><div class="flex items-center gap-2"><span class="h-2 w-2 rounded-full bg-green-500"></span> Upfront pricing</div><div class="flex items-center gap-2"><span class="h-2 w-2 rounded-full bg-green-500"></span> Warranty on installs</div><div class="flex items-center gap-2"><span class="h-2 w-2 rounded-full bg-green-500"></span> Local & insured</div></div></div>
-<div class="relative"><img src="https://placehold.co/720x520/jpg" alt="Technician servicing an HVAC system" class="rounded-3xl shadow-xl"/><div class="absolute -bottom-6 -left-6 bg-white/90 backdrop-blur rounded-2xl shadow p-4 border border-slate-100"><p class="text-sm">Service area: Castle Rock, Littleton & nearby (50-mile radius)</p></div></div>
-</div></div></section>
+  <!-- Header / Nav -->
+  <header class="sticky top-0 z-40 bg-white/90 backdrop-blur border-b border-slate-100">
+    <div class="max-w-7xl mx-auto px-4">
+      <div class="flex items-center justify-between h-20">
+        <a href="#top" class="flex items-center gap-3">
+          <div class="h-10 w-10 rounded-xl bg-brand text-white font-bold grid place-items-center">CS</div>
+          <div>
+            <p class="font-extrabold tracking-tight text-slate-900 leading-5">Comfort Systems of Colorado</p>
+            <p class="text-xs text-slate-600 -mt-1">Same-Day Guaranteed • Upfront Pricing</p>
+          </div>
+        </a>
+        <nav class="hidden md:flex items-center gap-6 text-sm">
+          <a href="#services" class="hover:text-brand">Services</a>
+          <a href="#promos" class="hover:text-brand">Promos</a>
+          <a href="#financing" class="hover:text-brand">Financing</a>
+          <a href="#reviews" class="hover:text-brand">Reviews</a>
+          <a href="#faq" class="hover:text-brand">FAQ</a>
+          <a href="#contact" class="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-brand text-white hover:bg-brand-dark transition">Request Service</a>
+        </nav>
+        <a href="tel:+13039032023" class="md:hidden inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-brand text-white hover:bg-brand-dark transition">Call</a>
+      </div>
+    </div>
+  </header>
 
-<section class="py-12 bg-white"><div class="max-w-7xl mx-auto px-4 grid grid-cols-2 md:grid-cols-4 gap-6">
-<div class="p-5 rounded-2xl border border-slate-200 text-center"><p class="font-bold">Licensed & Insured</p><p class="text-sm text-slate-600">Residential • light commercial</p></div>
-<div class="p-5 rounded-2xl border border-slate-200 text-center"><p class="font-bold">Upfront, Fair Pricing</p><p class="text-sm text-slate-600">No surprises at the end</p></div>
-<div class="p-5 rounded-2xl border border-slate-200 text-center"><p class="font-bold">Quality Parts</p><p class="text-sm text-slate-600">Manufacturer warranties</p></div>
-<div class="p-5 rounded-2xl border border-slate-200 text-center"><p class="font-bold">Same-Day When Available</p><p class="text-sm text-slate-600">We hustle to get you cool/warm</p></div>
-</div></section>
+  <!-- Hero -->
+  <section id="top" class="relative overflow-hidden">
+    <div class="absolute inset-0 bg-gradient-to-br from-sky-50 via-white to-sky-100"></div>
+    <div class="max-w-7xl mx-auto px-4 py-20 relative">
+      <div class="grid md:grid-cols-2 gap-10 items-center">
+        <div>
+          <h1 class="text-4xl md:text-5xl font-extrabold tracking-tight leading-tight">
+            HVAC You Can Trust — <span class="text-brand">Same-Day Guaranteed</span>
+          </h1>
+          <p class="mt-4 text-lg text-slate-700">
+            Repairs, replacements, and tune-ups for furnaces, AC, heat pumps, and more. Upfront pricing and friendly pros.
+          </p>
+          <div class="mt-8 flex flex-col sm:flex-row gap-3">
+            <a href="#contact" class="px-6 py-3 rounded-xl bg-brand text-white font-semibold hover:bg-brand-dark transition">Request Service</a>
+            <a href="tel:+13039032023" class="px-6 py-3 rounded-xl border border-slate-300 bg-white font-semibold hover:border-slate-400 transition">Call (303) 903-2023</a>
+          </div>
+          <div class="mt-6 flex items-center gap-6 text-sm text-slate-600">
+            <div class="flex items-center gap-2"><span class="h-2 w-2 rounded-full bg-green-500"></span> Same-day guaranteed</div>
+            <div class="flex items-center gap-2"><span class="h-2 w-2 rounded-full bg-green-500"></span> Upfront pricing</div>
+            <div class="flex items-center gap-2"><span class="h-2 w-2 rounded-full bg-green-500"></span> Warranty on installs</div>
+          </div>
+        </div>
+        <div class="relative">
+          <img src="https://source.unsplash.com/720x520/?hvac,technician" alt="HVAC technician servicing an air conditioning condenser" class="rounded-3xl shadow-xl" loading="eager" />
+          <div class="absolute -bottom-6 -left-6 bg-white/90 backdrop-blur rounded-2xl shadow p-4 border border-slate-100">
+            <p class="text-sm">Service area: Castle Rock, Littleton & nearby (50-mile radius)</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-<section id="services" class="py-16 bg-slate-50"><div class="max-w-7xl mx-auto px-4"><h2 class="text-3xl font-extrabold tracking-tight">Services</h2><p class="mt-2 text-slate-700">Everything you need to keep your home comfortable year-round.</p>
-<div class="mt-8 grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-<article class="p-6 rounded-2xl bg-white border border-slate-200 shadow-sm"><h3 class="font-bold text-lg">AC Repair & Replacement</h3><p class="mt-2 text-sm text-slate-700">Diagnostics, capacitor/compressor issues, refrigerant leaks, coil cleaning, full system change-outs.</p></article>
-<article class="p-6 rounded-2xl bg-white border border-slate-200 shadow-sm"><h3 class="font-bold text-lg">Furnace Repair & Replacement</h3><p class="mt-2 text-sm text-slate-700">Ignition issues, blower motors, heat exchangers, efficiency upgrades.</p></article>
-<article class="p-6 rounded-2xl bg-white border border-slate-200 shadow-sm"><h3 class="font-bold text-lg">Heat Pumps & Mini-Splits</h3><p class="mt-2 text-sm text-slate-700">Energy-efficient heating + cooling, great for additions and comfort fixes.</p></article>
-<article class="p-6 rounded-2xl bg-white border border-slate-200 shadow-sm"><h3 class="font-bold text-lg">Tune-Ups & Maintenance</h3><p class="mt-2 text-sm text-slate-700">Seasonal maintenance to boost performance and catch issues early.</p></article>
-<article class="p-6 rounded-2xl bg-white border border-slate-200 shadow-sm"><h3 class="font-bold text-lg">Thermostats & Smart Controls</h3><p class="mt-2 text-sm text-slate-700">Smart thermostat installs, zoning, controls support.</p></article>
-<article class="p-6 rounded-2xl bg-white border border-slate-200 shadow-sm"><h3 class="font-bold text-lg">Water Heaters (Tank/Tankless)</h3><p class="mt-2 text-sm text-slate-700">Repairs, replacements, code-compliant venting.</p></article>
-</div>
-<div class="mt-10"><a href="#contact" class="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-brand text-white font-semibold hover:bg-brand-dark transition">Request a Quote</a></div>
-</div></section>
+  <!-- Trust Badges -->
+  <section class="py-12 bg-white">
+    <div class="max-w-7xl mx-auto px-4 grid grid-cols-2 md:grid-cols-4 gap-6">
+      <div class="p-5 rounded-2xl border border-slate-200 text-center">
+        <p class="font-bold">Licensed & Insured</p>
+        <p class="text-sm text-slate-600">Residential & light commercial</p>
+      </div>
+      <div class="p-5 rounded-2xl border border-slate-200 text-center">
+        <p class="font-bold">Upfront, Fair Pricing</p>
+        <p class="text-sm text-slate-600">No surprises at the end</p>
+      </div>
+      <div class="p-5 rounded-2xl border border-slate-200 text-center">
+        <p class="font-bold">Quality Parts</p>
+        <p class="text-sm text-slate-600">Backed by manufacturer warranties</p>
+      </div>
+      <div class="p-5 rounded-2xl border border-slate-200 text-center">
+        <p class="font-bold">Same-Day Guaranteed</p>
+        <p class="text-sm text-slate-600">We hustle to get you cool/warm</p>
+      </div>
+    </div>
+  </section>
 
-<section id="promos" class="py-16 bg-white"><div class="max-w-7xl mx-auto px-4"><h2 class="text-3xl font-extrabold tracking-tight">Current Promos</h2>
-<div class="mt-8 grid md:grid-cols-3 gap-6">
-<div class="p-6 rounded-2xl border border-slate-200"><h3 class="font-bold">Free Second Opinion</h3><p class="text-sm text-slate-700 mt-2">Have a quote? We’ll review it and advise repair vs replace.</p></div>
-<div class="p-6 rounded-2xl border border-slate-200"><h3 class="font-bold">$0 Diagnostic with Repair</h3><p class="text-sm text-slate-700 mt-2">No diagnostic fee when you approve the repair on the same visit.</p></div>
-<div class="p-6 rounded-2xl border border-slate-200"><h3 class="font-bold">Maintenance Bundle</h3><p class="text-sm text-slate-700 mt-2">Seasonal tune-up & cleaning package for AC + Furnace.</p></div>
-</div></div></section>
+  <!-- Services -->
+  <section id="services" class="py-16 bg-slate-50">
+    <div class="max-w-7xl mx-auto px-4">
+      <h2 class="text-3xl font-extrabold tracking-tight">Services</h2>
+      <p class="mt-2 text-slate-700">Everything you need to keep your home comfortable year-round.</p>
 
-<section id="financing" class="py-16 bg-slate-50"><div class="max-w-7xl mx-auto px-4"><h2 class="text-3xl font-extrabold tracking-tight">Financing & Payment</h2>
-<div class="mt-6 grid md:grid-cols-2 gap-8 items-start">
-<div class="p-6 rounded-2xl bg-white border border-slate-200 shadow-sm"><h3 class="font-bold">Flexible Options</h3>
-<ul class="mt-3 space-y-2 text-sm text-slate-700 list-disc pl-5"><li>Pay by card or ACH (Square)</li><li>Zero-interest promos may be available with approved partners</li><li>Clear, line-item estimates before work begins</li></ul>
-<a href="#contact" class="mt-4 inline-block px-5 py-2 rounded-xl bg-brand text-white font-semibold hover:bg-brand-dark">Ask About Financing</a></div>
-<div class="p-6 rounded-2xl bg-white border border-slate-200 shadow-sm"><h3 class="font-bold">What to Expect</h3>
-<ol class="mt-3 space-y-2 text-sm text-slate-700 list-decimal pl-5"><li>We listen to your concerns & run diagnostics</li><li>We show repair vs replace with transparent pricing</li><li>You choose what’s best — we get to work</li></ol></div>
-</div></div></section>
+      <div class="mt-8 grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <article class="p-6 rounded-2xl bg-white border border-slate-200 shadow-sm">
+          <h3 class="font-bold text-lg">AC Repair & Replacement</h3>
+          <p class="mt-2 text-sm text-slate-700">Diagnostics, capacitor/compressor issues, refrigerant leaks, coil cleaning, full system change-outs.</p>
+        </article>
+        <article class="p-6 rounded-2xl bg-white border border-slate-200 shadow-sm">
+          <h3 class="font-bold text-lg">Furnace Repair & Replacement</h3>
+          <p class="mt-2 text-sm text-slate-700">Ignition issues, blower motors, heat exchangers, efficiency upgrades.</p>
+        </article>
+        <article class="p-6 rounded-2xl bg-white border border-slate-200 shadow-sm">
+          <h3 class="font-bold text-lg">Heat Pumps & Mini-Splits</h3>
+          <p class="mt-2 text-sm text-slate-700">Energy-efficient heating + cooling, great for additions and comfort fixes.</p>
+        </article>
+        <article class="p-6 rounded-2xl bg-white border border-slate-200 shadow-sm">
+          <h3 class="font-bold text-lg">Tune-Ups & Maintenance</h3>
+          <p class="mt-2 text-sm text-slate-700">Seasonal maintenance to boost performance and catch issues early.</p>
+        </article>
+        <article class="p-6 rounded-2xl bg-white border border-slate-200 shadow-sm">
+          <h3 class="font-bold text-lg">Thermostats & Smart Controls</h3>
+          <p class="mt-2 text-sm text-slate-700">Smart thermostat installs, zoning, and controls.</p>
+        </article>
+        <article class="p-6 rounded-2xl bg-white border border-slate-200 shadow-sm">
+          <h3 class="font-bold text-lg">Water Heaters (Tank/Tankless)</h3>
+          <p class="mt-2 text-sm text-slate-700">Repairs, replacements, and code-compliant venting.</p>
+        </article>
+      </div>
 
-<section id="reviews" class="py-16 bg-white"><div class="max-w-7xl mx-auto px-4"><h2 class="text-3xl font-extrabold tracking-tight">Happy Customers</h2>
-<div class="mt-8 grid md:grid-cols-3 gap-6">
-<figure class="p-6 rounded-2xl border border-slate-200"><blockquote class="text-sm text-slate-700">“They fixed our AC the same day during a heat wave. Clear pricing and super professional.”</blockquote><figcaption class="mt-3 text-xs text-slate-500">— Homeowner in Castle Rock</figcaption></figure>
-<figure class="p-6 rounded-2xl border border-slate-200"><blockquote class="text-sm text-slate-700">“Explained repair vs. replace without pressure. We chose a new system and love it.”</blockquote><figcaption class="mt-3 text-xs text-slate-500">— Family in Littleton</figcaption></figure>
-<figure class="p-6 rounded-2xl border border-slate-200"><blockquote class="text-sm text-slate-700">“On time, clean, and fair. Will use again for maintenance.”</blockquote><figcaption class="mt-3 text-xs text-slate-500">— Townhome Owner</figcaption></figure>
-</div>
-<div class="mt-8"><a href="#contact" class="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-brand text-white font-semibold hover:bg-brand-dark transition">Request Service</a></div>
-</div></section>
+      <div class="mt-10">
+        <a href="#contact" class="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-brand text-white font-semibold hover:bg-brand-dark transition">Request a Quote</a>
+      </div>
+    </div>
+  </section>
 
-<section id="faq" class="py-16 bg-slate-50"><div class="max-w-7xl mx-auto px-4"><h2 class="text-3xl font-extrabold tracking-tight">FAQ</h2>
-<div class="mt-8 grid md:grid-cols-2 gap-6">
-<details class="p-5 rounded-2xl bg-white border border-slate-200"><summary class="font-semibold cursor-pointer">Do you force replacement if my system is old?</summary><p class="mt-3 text-sm text-slate-700">No. We present repair vs replace with costs and pros/cons. You decide.</p></details>
-<details class="p-5 rounded-2xl bg-white border border-slate-200"><summary class="font-semibold cursor-pointer">How fast can you come out?</summary><p class="mt-3 text-sm text-slate-700">Often same-day or next-day for no-cool/no-heat calls.</p></details>
-<details class="p-5 rounded-2xl bg-white border border-slate-200"><summary class="font-semibold cursor-pointer">Are you licensed and insured?</summary><p class="mt-3 text-sm text-slate-700">Yes. Fully insured and registered in Colorado; permits pulled where required.</p></details>
-<details class="p-5 rounded-2xl bg-white border border-slate-200"><summary class="font-semibold cursor-pointer">What’s your service area?</summary><p class="mt-3 text-sm text-slate-700">Castle Rock, Littleton, and surrounding communities within ~50 miles.</p></details>
-</div></div></section>
+  <!-- Promos -->
+  <section id="promos" class="py-16 bg-white">
+    <div class="max-w-7xl mx-auto px-4">
+      <h2 class="text-3xl font-extrabold tracking-tight">Current Promos</h2>
+      <div class="mt-8 grid md:grid-cols-3 gap-6">
+        <div class="p-6 rounded-2xl border border-slate-200">
+          <h3 class="font-bold">Free Second Opinion</h3>
+          <p class="text-sm text-slate-700 mt-2">Already have a quote? We’ll review it and advise repair vs. replace.</p>
+        </div>
+        <div class="p-6 rounded-2xl border border-slate-200">
+          <h3 class="font-bold">$0 Diagnostic with Repair</h3>
+          <p class="text-sm text-slate-700 mt-2">No trip/diagnostic fee when you approve the repair during the same visit.</p>
+        </div>
+        <div class="p-6 rounded-2xl border border-slate-200">
+          <h3 class="font-bold">Maintenance Bundle</h3>
+          <p class="text-sm text-slate-700 mt-2">Seasonal tune-up & cleaning for AC + Furnace.</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-<section id="contact" class="py-16 bg-white"><div class="max-w-7xl mx-auto px-4"><div class="grid md:grid-cols-2 gap-10 items-start">
-<div><h2 class="text-3xl font-extrabold tracking-tight">Request Service or a Quote</h2><p class="mt-2 text-slate-700">Tell us what’s going on and your preferred time. We’ll confirm ASAP.</p>
-<div class="mt-6 p-5 rounded-2xl bg-slate-50 border border-slate-200 text-sm text-slate-700"><p class="font-semibold">Quick options</p>
-<ul class="mt-2 space-y-1 list-disc pl-5"><li><a class="underline" href="tel:+14065447251">Call (406) 544-7251</a></li><li><a class="underline" href="sms:+14065447251">Text us</a></li><li><a class="underline" href="mailto:caidenhenson18@gmail.com?subject=Service%20Request%20-%20Comfort%20Systems%20of%20Colorado">Email</a></li></ul></div></div>
-<form name="contact" id="lead-form" method="POST" data-netlify="true" netlify-honeypot="bot-field" class="p-6 rounded-2xl bg-white border border-slate-200 shadow-sm">
-<input type="hidden" name="form-name" value="contact"><input type="hidden" name="subject" value="New Service Request - Comfort Systems of Colorado">
-<p class="hidden"><label>Don’t fill this out if you’re human: <input name="bot-field"/></label></p>
-<div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-<div><label class="block text-sm font-medium">First name</label><input name="first_name" required class="mt-1 w-full rounded-xl border-slate-300 focus:ring-brand focus:border-brand"/></div>
-<div><label class="block text-sm font-medium">Last name</label><input name="last_name" required class="mt-1 w-full rounded-xl border-slate-300 focus:ring-brand focus:border-brand"/></div>
-<div><label class="block text-sm font-medium">Phone</label><input name="phone" required type="tel" class="mt-1 w-full rounded-xl border-slate-300 focus:ring-brand focus:border-brand"/></div>
-<div><label class="block text-sm font-medium">Email</label><input name="email" type="email" class="mt-1 w-full rounded-xl border-slate-300 focus:ring-brand focus:border-brand"/></div>
-<div class="md:col-span-2"><label class="block text-sm font-medium">Address or City</label><input name="address" class="mt-1 w-full rounded-xl border-slate-300 focus:ring-brand focus:border-brand"/></div>
-<div class="md:col-span-2"><label class="block text-sm font-medium">How can we help?</label><textarea name="message" rows="4" class="mt-1 w-full rounded-xl border-slate-300 focus:ring-brand focus:border-brand"></textarea></div>
-<div class="md:col-span-2 grid md:grid-cols-2 gap-4">
-<div><label class="block text-sm font-medium">Preferred date</label><input name="preferred_date" type="date" class="mt-1 w-full rounded-xl border-slate-300 focus:ring-brand focus:border-brand"/></div>
-<div><label class="block text-sm font-medium">Preferred time</label><select name="preferred_time" class="mt-1 w-full rounded-xl border-slate-300 focus:ring-brand focus:border-brand"><option>Anytime</option><option>Morning</option><option>Afternoon</option><option>Evening</option></select></div>
-</div></div>
-<button class="mt-6 w-full px-6 py-3 rounded-xl bg-brand text-white font-semibold hover:bg-brand-dark">Submit Request</button>
-<p class="mt-3 text-xs text-slate-500">By submitting, you agree to be contacted via phone/text/email.</p></form>
-</div></div></section>
+  <!-- Financing -->
+  <section id="financing" class="py-16 bg-slate-50">
+    <div class="max-w-7xl mx-auto px-4">
+      <h2 class="text-3xl font-extrabold tracking-tight">Financing & Payment</h2>
+      <div class="mt-6 grid md:grid-cols-2 gap-8 items-start">
+        <div class="p-6 rounded-2xl bg-white border border-slate-200 shadow-sm">
+          <h3 class="font-bold">Flexible Options</h3>
+          <ul class="mt-3 space-y-2 text-sm text-slate-700 list-disc pl-5">
+            <li>Pay by card or ACH (Square)</li>
+            <li>Zero-interest promos may be available with partners</li>
+            <li>Clear, line-item estimates before work begins</li>
+          </ul>
+          <a href="#contact" class="mt-4 inline-block px-5 py-2 rounded-xl bg-brand text-white font-semibold hover:bg-brand-dark">Ask About Financing</a>
+        </div>
+        <div class="p-6 rounded-2xl bg-white border border-slate-200 shadow-sm">
+          <h3 class="font-bold">What to Expect</h3>
+          <ol class="mt-3 space-y-2 text-sm text-slate-700 list-decimal pl-5">
+            <li>We listen to your concerns & run diagnostics</li>
+            <li>We show repair vs. replace options with transparent pricing</li>
+            <li>You choose what’s best — we get to work</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </section>
 
-<footer class="bg-slate-900 text-slate-200"><div class="max-w-7xl mx-auto px-4 py-12 grid md:grid-cols-4 gap-8">
-<div><div class="flex items-center gap-3"><div class="h-10 w-10 rounded-xl bg-brand flex items-center justify-center text-white font-bold">CS</div><p class="font-extrabold">Comfort Systems of Colorado</p></div><p class="mt-3 text-sm text-slate-400">Premium HVAC with customer-friendly pricing. Residential and light commercial.</p></div>
-<div><p class="font-semibold">Contact</p><ul class="mt-3 space-y-1 text-sm"><li><a class="hover:underline" href="tel:+14065447251">(406) 544-7251</a></li><li><a class="hover:underline" href="mailto:caidenhenson18@gmail.com">caidenhenson18@gmail.com</a></li><li>Castle Rock, CO</li></ul></div>
-<div><p class="font-semibold">Quick Links</p><ul class="mt-3 space-y-1 text-sm"><li><a class="hover:underline" href="#services">Services</a></li><li><a class="hover:underline" href="#promos">Promos</a></li><li><a class="hover:underline" href="#financing">Financing</a></li><li><a class="hover:underline" href="#faq">FAQ</a></li><li><a class="hover:underline" href="#contact">Contact</a></li></ul></div>
-<div><p class="font-semibold">Hours</p><ul class="mt-3 space-y-1 text-sm"><li>Mon–Fri: 8am–6pm</li><li>Sat: 9am–2pm</li><li>Sun: Closed (emergency as available)</li></ul></div></div>
-<div class="border-t border-slate-800"><div class="max-w-7xl mx-auto px-4 py-6 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-slate-400"><p>© <span id="year"></span> Comfort Systems of Colorado. All rights reserved.</p><div class="flex items-center gap-4"><a href="#" class="hover:underline">Terms</a><a href="#" class="hover:underline">Privacy</a></div></div></div></footer>
-<div class="fixed bottom-4 right-4 z-40 md:hidden"><a href="tel:+14065447251" class="px-5 py-3 rounded-full shadow-xl bg-brand text-white font-semibold">Call Now</a></div>
-<script>document.getElementById('year').textContent=new Date().getFullYear();</script>
-</body></html>
+  <!-- Reviews -->
+  <section id="reviews" class="py-16 bg-white">
+    <div class="max-w-7xl mx-auto px-4">
+      <h2 class="text-3xl font-extrabold tracking-tight">Happy Customers</h2>
+      <div class="mt-8 grid md:grid-cols-3 gap-6">
+        <figure class="p-6 rounded-2xl border border-slate-200">
+          <blockquote class="text-sm text-slate-700">“They fixed our AC the same day. Clear pricing and super professional.”</blockquote>
+          <figcaption class="mt-3 text-xs text-slate-500">— Homeowner in Castle Rock</figcaption>
+        </figure>
+        <figure class="p-6 rounded-2xl border border-slate-200">
+          <blockquote class="text-sm text-slate-700">“Explained repair vs. replace without pressure. We chose a new system and love it.”</blockquote>
+          <figcaption class="mt-3 text-xs text-slate-500">— Family in Littleton</figcaption>
+        </figure>
+        <figure class="p-6 rounded-2xl border border-slate-200">
+          <blockquote class="text-sm text-slate-700">“On time, clean, and fair. Will use again for maintenance.”</blockquote>
+          <figcaption class="mt-3 text-xs text-slate-500">— Townhome Owner</figcaption>
+        </figure>
+      </div>
+      <div class="mt-8">
+        <a href="#contact" class="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-brand text-white font-semibold hover:bg-brand-dark transition">Request Service</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ (matches FAQ schema) -->
+  <section id="faq" class="py-16 bg-slate-50">
+    <div class="max-w-7xl mx-auto px-4">
+      <h2 class="text-3xl font-extrabold tracking-tight">FAQ</h2>
+      <div class="mt-8 grid md:grid-cols-2 gap-6">
+        <details class="p-5 rounded-2xl bg-white border border-slate-200">
+          <summary class="font-semibold cursor-pointer">Do you guarantee same-day service?</summary>
+          <p class="mt-3 text-sm text-slate-700">Yes. We guarantee same-day service in our core area during business hours. We’ll confirm timing when you book.</p>
+        </details>
+        <details class="p-5 rounded-2xl bg-white border border-slate-200">
+          <summary class="font-semibold cursor-pointer">Do you force replacement if my system is old?</summary>
+          <p class="mt-3 text-sm text-slate-700">No. We present repair vs. replace with transparent costs and pros/cons. You decide.</p>
+        </details>
+        <details class="p-5 rounded-2xl bg-white border border-slate-200">
+          <summary class="font-semibold cursor-pointer">Are you licensed and insured?</summary>
+          <p class="mt-3 text-sm text-slate-700">Yes—fully insured and operating as a registered Colorado business.</p>
+        </details>
+        <details class="p-5 rounded-2xl bg-white border border-slate-200">
+          <summary class="font-semibold cursor-pointer">What’s your service area?</summary>
+          <p class="mt-3 text-sm text-slate-700">Castle Rock, Littleton, and surrounding communities within ~50 miles.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact / Lead Form (Netlify Forms) -->
+  <section id="contact" class="py-16 bg-white">
+    <div class="max-w-7xl mx-auto px-4">
+      <div class="grid md:grid-cols-2 gap-10 items-start">
+        <div>
+          <h2 class="text-3xl font-extrabold tracking-tight">Request Service or a Quote</h2>
+          <p class="mt-2 text-slate-700">Tell us what’s going on and your preferred time. We’ll confirm ASAP.</p>
+          <div class="mt-6 p-5 rounded-2xl bg-slate-50 border border-slate-200 text-sm text-slate-700">
+            <p class="font-semibold">Quick options</p>
+            <ul class="mt-2 space-y-1 list-disc pl-5">
+              <li><a class="underline" href="tel:+13039032023">Call (303) 903-2023</a></li>
+              <li><a class="underline" href="sms:+13039032023">Text us</a></li>
+              <li><a class="underline" href="mailto:comfortsystemsofco@gmail.com?subject=Service%20Request%20-%20Comfort%20Systems%20of%20Colorado">Email</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Netlify Forms (no external service needed) -->
+        <form name="contact" id="lead-form" method="POST" data-netlify="true" netlify-honeypot="bot-field" class="p-6 rounded-2xl bg-white border border-slate-200 shadow-sm">
+          <input type="hidden" name="form-name" value="contact">
+          <input type="hidden" name="subject" value="New Service Request - Comfort Systems of Colorado">
+          <p class="hidden"><label>Don’t fill this out if you’re human: <input name="bot-field" /></label></p>
+
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div>
+              <label class="block text-sm font-medium">First name</label>
+              <input name="first_name" required class="mt-1 w-full rounded-xl border-slate-300 focus:ring-brand focus:border-brand" />
+            </div>
+            <div>
+              <label class="block text-sm font-medium">Last name</label>
+              <input name="last_name" required class="mt-1 w-full rounded-xl border-slate-300 focus:ring-brand focus:border-brand" />
+            </div>
+            <div>
+              <label class="block text-sm font-medium">Phone</label>
+              <input name="phone" required type="tel" class="mt-1 w-full rounded-xl border-slate-300 focus:ring-brand focus:border-brand" />
+            </div>
+            <div>
+              <label class="block text-sm font-medium">Email</label>
+              <input name="email" type="email" class="mt-1 w-full rounded-xl border-slate-300 focus:ring-brand focus:border-brand" />
+            </div>
+            <div class="md:col-span-2">
+              <label class="block text-sm font-medium">Address or City</label>
+              <input name="address" class="mt-1 w-full rounded-xl border-slate-300 focus:ring-brand focus:border-brand" />
+            </div>
+            <div class="md:col-span-2">
+              <label class="block text-sm font-medium">How can we help?</label>
+              <textarea name="message" rows="4" placeholder="Describe the issue or what you’d like a quote for" class="mt-1 w-full rounded-xl border-slate-300 focus:ring-brand focus:border-brand"></textarea>
+            </div>
+            <div class="md:col-span-2 grid md:grid-cols-2 gap-4">
+              <div>
+                <label class="block text-sm font-medium">Preferred date</label>
+                <input name="preferred_date" type="date" class="mt-1 w-full rounded-xl border-slate-300 focus:ring-brand focus:border-brand" />
+              </div>
+              <div>
+                <label class="block text-sm font-medium">Preferred time</label>
+                <select name="preferred_time" class="mt-1 w-full rounded-xl border-slate-300 focus:ring-brand focus:border-brand">
+                  <option>Anytime</option>
+                  <option>Morning</option>
+                  <option>Afternoon</option>
+                  <option>Evening</option>
+                </select>
+              </div>
+            </div>
+          </div>
+
+          <button class="mt-6 w-full px-6 py-3 rounded-xl bg-brand text-white font-semibold hover:bg-brand-dark">Submit Request</button>
+          <p class="mt-3 text-xs text-slate-500">By submitting, you agree to be contacted via phone/text/email.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer (NAP for local SEO) -->
+  <footer class="bg-slate-900 text-slate-200">
+    <div class="max-w-7xl mx-auto px-4 py-12 grid md:grid-cols-4 gap-8">
+      <div>
+        <div class="flex items-center gap-3">
+          <div class="h-10 w-10 rounded-xl bg-brand flex items-center justify-center text-white font-bold">CS</div>
+          <p class="font-extrabold">Comfort Systems of Colorado</p>
+        </div>
+        <p class="mt-3 text-sm text-slate-400">Same-day guaranteed HVAC with customer-friendly pricing. Residential & light commercial.</p>
+      </div>
+      <div>
+        <p class="font-semibold">Contact</p>
+        <ul class="mt-3 space-y-1 text-sm">
+          <li><a class="hover:underline" href="tel:+13039032023">(303) 903-2023</a></li>
+          <li><a class="hover:underline" href="mailto:comfortsystemsofco@gmail.com">comfortsystemsofco@gmail.com</a></li>
+          <li>Castle Rock, CO</li>
+        </ul>
+      </div>
+      <div>
+        <p class="font-semibold">Quick Links</p>
+        <ul class="mt-3 space-y-1 text-sm">
+          <li><a class="hover:underline" href="#services">Services</a></li>
+          <li><a class="hover:underline" href="#promos">Promos</a></li>
+          <li><a class="hover:underline" href="#financing">Financing</a></li>
+          <li><a class="hover:underline" href="#faq">FAQ</a></li>
+          <li><a class="hover:underline" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="font-semibold">Hours</p>
+        <ul class="mt-3 space-y-1 text-sm">
+          <li>Mon–Fri: 8am–6pm</li>
+          <li>Sat: 9am–2pm</li>
+          <li>Sun: Closed (emergency as available)</li>
+        </ul>
+      </div>
+    </div>
+    <div class="border-t border-slate-800">
+      <div class="max-w-7xl mx-auto px-4 py-6 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-slate-400">
+        <p>© <span id="year"></span> Comfort Systems of Colorado. All rights reserved.</p>
+        <div class="flex items-center gap-4">
+          <a href="#" class="hover:underline">Terms</a>
+          <a href="#" class="hover:underline">Privacy</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Sticky mobile CTA -->
+  <div class="fixed bottom-4 right-4 z-40 md:hidden">
+    <a href="tel:+13039032023" class="px-5 py-3 rounded-full shadow-xl bg-brand text-white font-semibold">Call Now</a>
+  </div>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
+
