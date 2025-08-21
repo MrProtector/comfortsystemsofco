@@ -15,7 +15,6 @@
   <meta property="og:type" content="website"/>
   <meta property="og:url" content="https://www.comfortsystemsofco.com/heat-pumps"/>
   <meta property="og:image" content="https://source.unsplash.com/1200x630/?heat-pump,hvac"/>
-
   <meta name="theme-color" content="#0ea5e9"/>
 
   <script src="https://cdn.tailwindcss.com"></script>
@@ -32,14 +31,10 @@
 
   <!-- Breadcrumbs + Service + FAQ Schema -->
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.comfortsystemsofco.com/" },
-      { "@type": "ListItem", "position": 2, "name": "Heat Pumps", "item": "https://www.comfortsystemsofco.com/heat-pumps" }
-    ]
-  }
+  {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[
+    {"@type":"ListItem","position":1,"name":"Home","item":"https://www.comfortsystemsofco.com/"},
+    {"@type":"ListItem","position":2,"name":"Heat Pumps","item":"https://www.comfortsystemsofco.com/heat-pumps"}
+  ]}
   </script>
   <script type="application/ld+json">
   {
@@ -64,21 +59,9 @@
     "@context":"https://schema.org",
     "@type":"FAQPage",
     "mainEntity":[
-      {
-        "@type":"Question",
-        "name":"Do you guarantee same-day service for heat pump calls?",
-        "acceptedAnswer":{"@type":"Answer","text":"Yes—same-day guaranteed in our core area during business hours. We’ll confirm your time window at booking."}
-      },
-      {
-        "@type":"Question",
-        "name":"Is a heat pump right for Colorado?",
-        "acceptedAnswer":{"@type":"Answer","text":"Modern cold-climate heat pumps perform well in Front Range conditions and can pair with a gas furnace (dual fuel) for extreme temps."}
-      },
-      {
-        "@type":"Question",
-        "name":"Do you offer financing?",
-        "acceptedAnswer":{"@type":"Answer","text":"Yes—ask about flexible options and potential zero-interest promos via approved partners."}
-      }
+      {"@type":"Question","name":"Do you guarantee same-day service for heat pump calls?","acceptedAnswer":{"@type":"Answer","text":"Yes—same-day guaranteed in our core area during business hours. We’ll confirm your time window at booking."}},
+      {"@type":"Question","name":"Is a heat pump right for Colorado?","acceptedAnswer":{"@type":"Answer","text":"Modern cold-climate heat pumps perform well in Front Range conditions and can pair with a gas furnace (dual fuel) for extreme temps."}},
+      {"@type":"Question","name":"Do you offer financing?","acceptedAnswer":{"@type":"Answer","text":"Yes—ask about flexible options and potential zero-interest promos via approved partners."}}
     ]
   }
   </script>
@@ -108,7 +91,7 @@
         </a>
         <nav class="hidden md:flex items-center gap-6 text-sm">
           <a href="/#services" class="hover:text-brand">Services</a>
-          <a href="/#promos" class="hover:text-brand">Promos</a>
+          <a href="/heat-pumps" class="hover:text-brand">Heat Pumps</a>
           <a href="/#financing" class="hover:text-brand">Financing</a>
           <a href="/#reviews" class="hover:text-brand">Reviews</a>
           <a href="/#faq" class="hover:text-brand">FAQ</a>
@@ -203,7 +186,10 @@
             </ul>
           </div>
         </div>
-        <form name="heat-pumps" method="POST" data-netlify="true" netlify-honeypot="bot-field" class="p-6 rounded-2xl bg-white border border-slate-200 shadow-sm">
+        <form name="heat-pumps" method="POST"
+              action="/thanks"
+              data-netlify="true" netlify-honeypot="bot-field"
+              class="p-6 rounded-2xl bg-white border border-slate-200 shadow-sm">
           <input type="hidden" name="form-name" value="heat-pumps">
           <input type="hidden" name="subject" value="Heat Pump Inquiry - Comfort Systems of Colorado">
           <p class="hidden"><label>Don’t fill this out if you’re human: <input name="bot-field"/></label></p>
