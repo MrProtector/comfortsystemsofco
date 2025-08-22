@@ -84,32 +84,34 @@
     </div>
   </header>
 
-  <!-- Hero -->
-  <section class="relative overflow-hidden">
-    <img src="https://source.unsplash.com/1600x900/?hvac,home" alt="HVAC service in Colorado home"
-         class="absolute inset-0 w-full h-full object-cover" />
-    <div class="absolute inset-0 bg-slate-900/60"></div>
-    <div class="relative max-w-7xl mx-auto px-4 py-28 md:py-36 grid md:grid-cols-2 gap-10 items-center text-white">
-      <div>
-        <h1 class="text-4xl md:text-5xl font-extrabold leading-tight">
-          Fast, Honest HVAC — <span class="text-brand">Same-Day Guaranteed, 24/7</span>
-        </h1>
-        <p class="mt-4 text-lg text-slate-200">
-          Repairs, installs, and maintenance for AC, furnaces, and heat pumps in Castle Rock, Littleton, and nearby.
-        </p>
-        <div class="mt-8 flex flex-col sm:flex-row gap-3">
-          <a href="#contact" class="px-6 py-3 rounded-xl bg-brand text-white font-semibold hover:bg-brand-dark">Get Same-Day Service</a>
-          <a href="tel:+13039032023" class="px-6 py-3 rounded-xl border border-white/30 bg-white/10 font-semibold hover:bg-white/20">Call (303) 903-2023</a>
-        </div>
-        <ul class="mt-6 grid sm:grid-cols-2 gap-2 text-sm text-slate-200">
-          <li>• Licensed & insured</li>
-          <li>• Upfront, no-surprise pricing</li>
-          <li>• Residential specialists</li>
-          <li>• Clean, respectful work</li>
-        </ul>
+<!-- Hero (local image + built-in overlay) -->
+<section class="text-white"
+  style="background:
+         linear-gradient(to bottom right, rgba(2,6,23,.65), rgba(2,6,23,.65)),
+         url('/img/hero.jpg') center / cover no-repeat;
+         background-color:#1f2937;">
+  <div class="max-w-7xl mx-auto px-4 py-28 md:py-36 grid md:grid-cols-2 gap-10 items-center">
+    <div>
+      <h1 class="text-4xl md:text-5xl font-extrabold leading-tight">
+        Fast, Honest HVAC — <span class="text-brand">Same-Day Guaranteed, 24/7</span>
+      </h1>
+      <p class="mt-4 text-lg text-slate-200">
+        Repairs, installs, and maintenance for AC, furnaces, and heat pumps in Castle Rock, Littleton, and nearby.
+      </p>
+      <div class="mt-8 flex flex-col sm:flex-row gap-3">
+        <a href="#contact" class="px-6 py-3 rounded-xl bg-brand text-white font-semibold hover:bg-brand-dark">Get Same-Day Service</a>
+        <a href="tel:+13039032023" class="px-6 py-3 rounded-xl border border-white/30 bg-white/10 font-semibold hover:bg-white/20">Call (303) 903-2023</a>
       </div>
+      <ul class="mt-6 grid sm:grid-cols-2 gap-2 text-sm text-slate-200">
+        <li>• Licensed & insured</li>
+        <li>• Upfront, no-surprise pricing</li>
+        <li>• Residential specialists</li>
+        <li>• Clean, respectful work</li>
+      </ul>
     </div>
-  </section>
+  </div>
+</section>
+
 
   <!-- Services -->
   <section id="services" class="py-16 bg-white">
